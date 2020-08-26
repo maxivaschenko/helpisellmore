@@ -121,7 +121,8 @@ table {
 	margin: 0 auto;
 	text-align: center;
 	font-size: 16px;
-   width: 80%; /* Ширина таблицы */
+   width: 95%; /* Ширина таблицы */
+   max-width: 1200px;
    border-spacing: 3px; /* Расстояние между ячейками */
 }
 td, th {
@@ -209,10 +210,68 @@ th {
 	box-shadow: 1px 1px 5px 0 #0b76cc;
 }
 
-
-
 footer {
-	text-align:       center;
-	padding:          15px;
-	font-size:        80%;
+	text-align: center;
+	padding: 15px;
+	font-size: 80%;
+}
+
+.wrapper {
+	text-align: center;
+	width: 100%;
+	margin: 30px auto;
+}
+
+label {
+	font-size: 16px;
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 10px;
+	background-color: #2196f3;
+	border-radius: 8px;
+	margin: 5px;
+	color: #fff;
+}
+
+label:hover{
+	background: #0d87e9;
+	box-shadow: 1px 1px 5px 0 #0d87e9;
+}
+label:active{
+	background: #0b76cc;
+	box-shadow: 1px 1px 5px 0 #0b76cc;
+}
+
+input {
+	display: none;
+}
+input:checked + label {
+	text-decoration: underline;
+
+}
+
+input[id="tab-3"]:checked ~ .content .tab-3,
+input[id="tab-4"]:checked ~ .content .tab-4,
+input[id="tab-5"]:checked ~ .content .tab-5,
+input[id="tab-6"]:checked ~ .content .tab-6,
+input[id="tab-7"]:checked ~ .content .tab-7,
+input[id="tab-8"]:checked ~ .content .tab-8,
+input[id="tab-9"]:checked ~ .content .tab-9,
+input[id="tab-10"]:checked ~ .content .tab-10,
+input[id="tab-11"]:checked ~ .content .tab-11,
+input[id="tab-12"]:checked ~ .content .tab-12 {
+	display: block;
+}
+
+.content {
+	position: relative;
+}
+
+article {
+
+	width: 100%;
+	display: none;
+	}
+.left-list {
+	width: 20%;
 }
