@@ -1,19 +1,18 @@
-*{margin: 0;padding: 0;border: 0;}
-*,*:before, *:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box; box-sizing: border-box;}
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
-html, body{height: 100%; width: 100%; font-size: 100%; line-height: 1; font-size: 14px;
-	-ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
-input,button,textarea{font-family: inherit;}
-input:: -ms-clear{display: none;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
 button{cursor: pointer;}
-button:: -moz-fokus-innre {padding:0;border:0;}
-a, a:visited{text-decoration: none;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
-h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight: 400;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 body{
 	background: #e8e8e8;
@@ -21,10 +20,6 @@ body{
 	font-family: "Comic Sans MS";
 	width: 90%;
  	min-width: 850px;
-}
-.top {
-}
-.headerLogoISM {
 }
 
 .headerLogoAtlant {
@@ -85,26 +80,6 @@ body{
 .section-list-p{
 	line-height: 	30px;
 }
-.section-list-grafik li {
-	margin: 10px 0;
-}
-.section-list-grafik a {
-	display: inline-block;
-	width: 90%;
-	border-radius: 10px;
-	padding: 5px 0 5px 0;
-	background: #2196f3;
-	color: #ffffff;
-	text-transform: uppercase;
-}
-.section-list-grafik  a:hover {
-	background: #0d87e9;
-	box-shadow: 1px 1px 5px 0 #0d87e9;
-}
-.section-list-grafik a:active {
-	background: #0b76cc;
-	box-shadow: 1px 1px 5px 0 #0b76cc;
-}
 
 .content-main {
 	display: table-cell;
@@ -114,15 +89,14 @@ body{
 	text-align: center;
 	letter-spacing: 4px;
 	line-height: 35px;
- 	margin: 20px 0px 30px 0px;
+ 	margin: 15px 0px 10px 0px;
  	text-transform: uppercase;
 }
 table {
 	margin: 0 auto;
 	text-align: center;
 	font-size: 16px;
-   width: 95%; /* Ширина таблицы */
-   max-width: 1200px;
+	width: 95%;/* Ширина таблицы */
    border-spacing: 3px; /* Расстояние между ячейками */
 }
 td, th {
@@ -143,6 +117,21 @@ th {
 	font-size: 20px;
 	line-height: 35px;
 }
+
+.kontakt a {
+	color: #0d87e9;
+}
+.kontakt a:hover{
+	text-decoration: underline;
+}
+.kontakt a:active{
+	text-shadow: 1px 1px #0d87e9;
+	text-decoration: underline;
+}
+.kontakt-mts {
+	margin: 0 0 0 62px;
+}
+
 .kontakt_h {
 	font-weight: bold;
 	font-size: 22px;
@@ -155,7 +144,7 @@ th {
 }
 .kontakt_mail{
 	color: #0d87e9;
-		margin: 0 0 20px 0;
+	margin: 0 0 20px 0;
 }
 
 .ism{
@@ -182,33 +171,6 @@ th {
 .grafik_list {
 	text-align: center;
 }
-.content-buttom-info-list2{
-
-}
-.content-buttom-info-list2 li {
-	margin: 0 0 15px 0;
-}
-.content-buttom-info-list2 a {
-	display: inline-block;
-	font-size: 18px;
-	width: 400px;
-	text-align: center;
-	padding: 10px 0 10px 0;
-	border-radius: 10px;
-	background: #2196f3;
-	color: #ffffff;
-	text-transform: uppercase;
-	letter-spacing: 2.8px;
-}
-
-.content-buttom-info-list2 a:hover {
-	background: #0d87e9;
-	box-shadow: 1px 1px 5px 0 #0d87e9;
-}
-.content-buttom-info-list2 a:active {
-	background: #0b76cc;
-	box-shadow: 1px 1px 5px 0 #0b76cc;
-}
 
 footer {
 	text-align: center;
@@ -218,19 +180,21 @@ footer {
 
 .wrapper {
 	text-align: center;
-	width: 100%;
-	margin: 30px auto;
+   width: 100%;
+   margin: 0px auto;
+   position: relative;
 }
 
 label {
-	font-size: 16px;
-	cursor: pointer;
-	display: inline-block;
-	padding: 10px 10px;
-	background-color: #2196f3;
-	border-radius: 8px;
-	margin: 5px;
-	color: #fff;
+	 font-size: 16px;
+    cursor: pointer;
+    display: block;
+    padding: 10px 10px;
+    background-color: #2196f3;
+    border-radius: 8px;
+    margin: 5px;
+    color: #fff;
+    width: 150px;
 }
 
 label:hover{
@@ -247,7 +211,6 @@ input {
 }
 input:checked + label {
 	text-decoration: underline;
-
 }
 
 input[id="tab-3"]:checked ~ .content .tab-3,
@@ -264,14 +227,14 @@ input[id="tab-12"]:checked ~ .content .tab-12 {
 }
 
 .content {
-	position: relative;
+	margin: 0 auto;
+   position: absolute;
+   top: 0;
+   left: 200px;
+   width: 75%;
 }
 
 article {
-
 	width: 100%;
 	display: none;
 	}
-.left-list {
-	width: 20%;
-}
