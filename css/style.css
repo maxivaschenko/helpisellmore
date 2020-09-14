@@ -129,9 +129,11 @@ th {
 	text-decoration: underline;
 }
 .kontakt-mts {
-	margin: 0 0 0 55px;
+	margin: 0 0 0 60px;
 }
-
+.kontakt-moskow {
+	margin: 0 0 0 17px;
+}
 .kontakt_h {
 	font-weight: bold;
 	font-size: 22px;
@@ -238,3 +240,7 @@ article {
 	width: 100%;
 	display: none;
 	}
+
+footer {
+	margin: 40px 0 0 0;
+}
