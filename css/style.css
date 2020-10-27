@@ -275,7 +275,6 @@ label:active {
    width: 100%;
    margin: 20px auto 0 auto;
    position: relative;
-
 }
 .mainbody__chekboxp {
 	text-align: center;
@@ -326,8 +325,8 @@ input[id="tab-18"]:checked ~ .mainbody__rowbody .tab-18 {
 .mainbody__manager{
 	position: relative;
    top: 0;
-   left: 90px;
-   margin-top: -280px;
+   left: 93px;
+   margin-top: -488px;
 }
 
 .mainbody__rowbody h2{
@@ -411,8 +410,8 @@ input[id="tab-18"]:checked ~ .mainbody__rowbody .tab-18 {
 .mainbody__tp {
 	position: relative;
    top: 0;
-   left: 90px;
-   margin-top: -740px;
+   left: 91px;
+   margin-top: -748px;
 }
 
 .mainbody__index li{
@@ -544,12 +543,12 @@ th {
    left: 160px;
 	}
 	.mainbody__manager{
-   	margin-top: -290px;
-	   left: 50px;
+   	margin-top: -511px;
+	   left: 57px;
 	}
 	.mainbody__tp {
-	   left: 50px;
-	   margin-top: -785px;
+	   left: 58px;
+	   margin-top: -792px;
 	}
 	table {
 		font-size: 15px;
@@ -600,12 +599,12 @@ th {
    width: 80%;
 	}
 	.mainbody__manager{
-		margin-top: -280px;
-	   left: 40px;
+		margin-top: -502px;
+	   left: 52px;
 	}
 	.mainbody__tp {
-	   left: 40px;
-	   margin-top: -770px;
+	   left: 52px;
+	   margin-top: -776px;
 	}
 	table {
 		font-size: 14px;
@@ -656,12 +655,12 @@ th {
    	width: 80%;
 	}
 	.mainbody__manager{
-	   margin-top: -260px;
-	   left: 30px;
+	   margin-top: -468px;
+	   left: 35px;
 	}
 	.mainbody__tp {
-	   left: 30px;
-	   margin-top: -745px;
+	   left: 35px;
+	   margin-top: -748px;
 	}
 	table {
 		font-size: 13px;
