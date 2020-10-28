@@ -46,7 +46,7 @@
 							</p>
 						</div>
 						<div class="mainbody__row2">
-							<input type="radio" checked name="tab" id="tab-3"/>
+							<input type="radio" name="tab" id="tab-3"/>
 								<label for="tab-3">Замена ТП</label>
 							<p class="mainbody__chekboxp">
 								Маршрутные формы
@@ -63,7 +63,7 @@
 							<p class="mainbody__chekboxp">
 								Отчёты на портале	
 							</p>
-							<input type="radio" name="tab" id="tab-7"/>
+							<input type="radio" checked name="tab" id="tab-7"/>
 								<label for="tab-7">Отчёт по заказам</label>
 							<p class="mainbody__chekboxp">
 								Отчёты в КПК	
@@ -75,9 +75,6 @@
 									<article class="tab-3">
 										<h3>
 											Алгоритм действий менеджера при смене торгового представителя
-										</h3>
-										<h3>
-											
 										</h3>
 										<ol type="1">
 											<li>
@@ -286,12 +283,104 @@
 												Данные в списках редактируются непосредственно на портале ISellMore и следовательно для получения корректных данных в КПК 
 												необходимо просто обновить КПК. Ждать обмен между программой 1С и сервером ISellMore не нужно.
 											</p>
-
+									</article>
+									<article class="tab-7">
+										<h3>
+											отчет по заказам на портале <a href="https://isellmore.com" target="_blank" class="link__ism">ISellMore</a>
+										</h3>
+										<div class="content-top-p">
+											<p>
+												Данный отчёт позволяет просмотреть заказы торговых представителей в разрезе каждого производителя.
+											</p>
+											<p>
+												Для формирования отчёта открываем:
+											</p>
+											<ul class="mainbody__rowbodyli">
+												<li>портал <a href="https://isellmore.com" target="_blank" class="link__ism">ISellMore</a></li>
+												<li>меню - Отчёты</li>
+												<li>пункт меню - Стандартные отчёты</li>
+											</ul>
+											<img src="img/For_man/reports_portal/Reports_portal_main.JPG" alt="">
+											<p>
+												Выбираем необходимые фильтры:
+											</p>
+											<ul class="mainbody__rowbodyli">
+												<li>Период</li>
+												<li>Сотрудник</li>
+											</ul>
+											<p>
+												И нажиммаем кнопку "Экспорт"
+											</p>
+											<img src="img/For_man/reports_portal/report_portal_filters.JPG" alt="">
+											<p>
+												Сформированный отчёт выгружается в файл Excel.
+											</p>
+											<p>
+												Пример сформированного отчёта.
+											</p>
+											<img src="img/For_man/reports_portal/Report_Portal_Orders.JPG" alt="">
+											<p>
+												Отчёт по заказам содержит информацию следующего характера:
+											</p>
+											<ul class="mainbody__rowbodytextli">
+												<li>Менеджер</li>
+												<li>Торговый представитель</li>
+												<li>Производитель</li>
+												<li>Количество заказов (документов)</li>
+												<li>Среднее количество SKU</li>
+												<li>Сумма заказа</li>
+											</ul>
+									</article>
+									<article class="tab-8">
+										<h3>
+											отчёт объем заказов в кпк
+										</h3>
+										<p>
+											Данный отчёт позволяет просмотреть сколько каких позиций и на какую сумму
+											было набито торговым представителем в КПК за сегодня или за определенный период.
+										</p>
+										<p>Открываем главное меню</p>
+										<img src="img/For_man/reports_KPK/report_orders/manager_main_window.jpg" alt="">
+										<p>и выбираем пункт "Мои файлы"</p>
+										<img src="img/For_man/reports_KPK/report_orders/manager_my_files.jpg" alt="">
+										<p>В открывшемся окне выбираем отчёт - "Объём заказов"</p>
+										<img src="img/For_tp/Reports/reports_main.jpg" alt="">
+										<p>Для формирования отчёта доступны следующие фильтры:</p>
+										<ul class="mainbody__rowbodytextli">
+											<li>Выбор периода отбора</li>
+											<li>Сотрудник</li>
+											<li>Производитель</li>
+											<li>Группа товаров</li>
+											<li>Продукт</li>
+											<li>Без применения фильтров</li>
+										</ul>
+										<img src="img/For_man/reports_KPK/report_orders/manager_reports_order_filters.jpg" alt="">
+										<p>
+											Устанавливаем необходимы параметры отбора посредством установки соответствующей галочки 
+											или посредством выбора необходимого пункта из выпадающего списка.
+										</p>
+										<img src="img/For_tp/Reports/filter_manufaktura.jpg" alt="">
+										<p>
+											и нажимаем "Сформировать отчёт".
+										</p>
+										<p>Пример сформированного отчёта без применения фильтров.</p>
+										<img src="img/For_man/reports_KPK/report_orders/manager_reports_order_filters_users.jpg" alt="">
+										<p>Пример сформированного отчёта с применением фильтра "Производитель"</p>
+										<img src="img/For_man/reports_KPK/report_orders/manager_reports_order_filters_manufaktura.jpg" alt="">
+										<p>Пример сформированного отчёта с применением фильтра "Группа товаров"</p>
+										<img src="img/For_man/reports_KPK/report_orders/manager_reports_order_filters_group.jpg" alt="">
+										<p>Пример сформированного отчёта с применением фильтра "Продукт"</p>
+										<img src="img/For_man/reports_KPK/report_orders/manager_reports_order_filters_produkts.jpg" alt="">
+										<p>
+											Возможно использование нескольких фильтров одновременно.
+										</p>
+										<p>
+											В каждом сформированном отчёте доступно поле "Поиск" для удобства использования.
+										</p>
 									</article>
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</div>
 			</div>	
