@@ -566,6 +566,10 @@ th {
 	.pustota {
 	height: 590px;
 	}
+	.back__to__top{
+	width: 45px;
+	height: 45px;
+	}
 }
 
 @media only screen and (min-width: 981px) and (max-width: 1100px) {
@@ -621,6 +625,10 @@ th {
 	}
 	.pustota {
 	height: 570px;
+	}
+	.back__to__top{
+	width: 55px;
+	height: 55px;
 	}
 }
 
@@ -680,5 +688,9 @@ th {
 	width: 10px;
 	height: 10px;
 	margin: 0px 10px 0px 0px;
+	}
+	.back__to__top{
+	width: 65px;
+	height: 65px;
 	}
 }
