@@ -191,6 +191,7 @@ label {
 	padding: 10px 0 10px 0;
 	border-radius: 10px;
 	margin: 10px 5px 10px 5px;
+	box-shadow: 1px 1px 7px 0 #000;
 }
 
 label {
@@ -201,6 +202,7 @@ label {
    border-radius: 8px;
    margin: 5px;
    cursor: pointer;
+   box-shadow: 1px 1px 7px 0 #000;
 }
 
 .navmenu a:hover,
@@ -287,14 +289,16 @@ label:active {
    margin: 5px;
    width: 160px;
    text-transform: uppercase;
+   box-shadow: 1px 1px 7px 0 #000;
 }
 
 input {
 	display: none;
+
 }
 input:checked + label {
 	text-decoration: underline;
-	box-shadow: 1px 1px 7px 0 #000;
+
 }
 
 input[id="tab-3"]:checked ~ .mainbody__rowbody .tab-3,
