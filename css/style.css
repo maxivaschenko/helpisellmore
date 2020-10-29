@@ -158,10 +158,17 @@ padding: 25px 0 0 0;
 	top: 1px;
 }
 
+.maintop__logoism img {
+	border-radius: 50%;
+	box-shadow: 1px 1px 7px 0 #000;
+	height: 110px;
+}
+
 .maintop__logoatlant img{
 	border-radius: 10px;
 	height: 110px;
-	margin: 5px 5px 5px 0;
+	margin: 0px 0px 5px 0;
+	box-shadow: 1px 1px 7px 0 #000;
 }
 .maintop__logoatlant img:hover{
 	box-shadow: 1px 1px 10px 0 #f00;
@@ -529,12 +536,11 @@ th {
 	.mainbody__rowbodytext {
 		font-size: 20px;
 	}
-	.maintop__logoism img {
-		height: 105px;
-	}
-	.maintop__logoatlant img{
+	.maintop__logoism img,
+	.maintop__logoatlant img {
 		height: 95px;
 	}
+
 	.navmenu a {
 		width: 160px;
 		font-size: 16px;
@@ -595,10 +601,8 @@ th {
 	.mainbody__rowbodytext {
 		font-size: 18px;
 	}
-	.maintop__logoism img {
-		height: 95px;
-	}
-	.maintop__logoatlant img{
+	.maintop__logoism img,
+	.maintop__logoatlant img {
 		height: 85px;
 	}
 	.navmenu a {
@@ -659,10 +663,8 @@ th {
 	.mainbody__rowbodytext {
 		font-size: 16px;
 	}
-	.maintop__logoism img {
-		height: 85px;
-	}
-	.maintop__logoatlant img{
+	.maintop__logoism img,
+	.maintop__logoatlant img {
 		height: 75px;
 	}
 	.navmenu a {
