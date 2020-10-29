@@ -81,21 +81,25 @@ body{
   -webkit-border-radius: 80px;
 }
 
+.margintop,
+.marginbotom {
+	height: 5%;
+}
+
 .container {
 	width: 90%;
 	max-width: 1400px;
 	min-width: 770px;
 	margin: 0 auto;
-
 }
 .wrapper {
 	width: 90%;
 	min-width: 800px;
-	min-height: 100%;
+	min-height: 90%;
 	display: flex;
 	flex-direction: column;
 	background: #e8e8e8;
-	margin: 5% auto;
+	margin: 0 auto;
 	border-radius: 30px;
 	box-shadow: 1px 1px 27px 0 #000;
 }
@@ -560,8 +564,12 @@ th {
 	.napravlenie {
 	font-size: 22px;
 	}
+	.margintop,
+	.marginbotom {
+		height: 4%;
+	}
 	.wrapper {
-	margin: 4% auto;
+	min-height: 92%;
 	}
 	.pustota {
 	height: 590px;
@@ -620,8 +628,12 @@ th {
 	.napravlenie {
 	font-size: 18px;
 	}
+	.margintop,
+	.marginbotom {
+		height: 3%;
+	}
 	.wrapper {
-	margin: 3% auto;
+	min-height: 94%;
 	}
 	.pustota {
 	height: 570px;
@@ -681,8 +693,12 @@ th {
 	font-size: 14px;
 	font-weight: 600;
 	}
+	.margintop,
+	.marginbotom {
+		height: 2%;
+	}
 	.wrapper {
-	margin: 2% auto;
+	min-height: 96%;
 	}
 	.mainbody__rowbodytextli li:before{
 	width: 10px;
