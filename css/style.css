@@ -160,14 +160,13 @@ padding: 25px 0 0 0;
 
 .maintop__logoatlant img{
 	border-radius: 10px;
-	height: 100px;
+	height: 110px;
 	margin: 5px 5px 5px 0;
 }
 .maintop__logoatlant img:hover{
 	box-shadow: 1px 1px 10px 0 #f00;
 	transition: all 0.5s ease;
 }
-
 
 .navmenu {
 	text-align: center;
@@ -530,7 +529,7 @@ th {
 		height: 105px;
 	}
 	.maintop__logoatlant img{
-		height: 90px;
+		height: 95px;
 	}
 	.navmenu a {
 		width: 160px;
@@ -596,7 +595,7 @@ th {
 		height: 95px;
 	}
 	.maintop__logoatlant img{
-		height: 80px;
+		height: 85px;
 	}
 	.navmenu a {
 		width: 140px;
@@ -660,7 +659,7 @@ th {
 		height: 85px;
 	}
 	.maintop__logoatlant img{
-		height: 70px;
+		height: 75px;
 	}
 	.navmenu a {
 		width: 130px;
