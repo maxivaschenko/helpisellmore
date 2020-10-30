@@ -297,6 +297,7 @@ label:active {
    width: 160px;
    text-transform: uppercase;
    box-shadow: 1px 1px 7px 0 #000;
+	text-shadow: 1px 1px 1px #000;
 }
 
 input {
@@ -411,7 +412,8 @@ input[id="tab-18"]:checked ~ .mainbody__rowbody .tab-18 {
 	cursor: pointer;
 
 }
-.mainbody img:active{
+.mainbody__manager img:active,
+.mainbody__tp img:active{
 	width: 100%;
 }
 
