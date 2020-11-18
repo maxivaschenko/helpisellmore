@@ -20,6 +20,8 @@ body{
 	background: #0b76cc;
 }
 
+
+
 .back__to__top{
 	position: fixed;
 	right: 2%;
@@ -236,6 +238,7 @@ label:active {
  	margin: 5px 0px 5px 0px;
  	text-transform: uppercase;
 }
+
 .mainbody__text {
 	line-height: 35px;
 	font-size: 22px;
@@ -266,10 +269,16 @@ label:active {
 }
 
 .mainbodycontakt__text img {
-	width: 25px;
-	height: 25px;
-	margin: 5px 0 0 0;
+	width: 35px;
+	height: 35px;
+	margin: 4px 0 0 0;
+	vertical-align: center;
 }
+
+.mainbodycontakt__text a {
+	line-height: 40px;
+}
+
 .mainbodycontakt__text h2 {
 	font-weight: bold;
 	margin: 20px 0 0 0;
@@ -283,11 +292,16 @@ label:active {
 	margin: 0 0 0 60px;
 }
 
+.VB__MB {
+	display: none;
+}
+
 .mainbody__row2{
 	text-align: center;
    width: 100%;
    margin: 20px auto 0 auto;
    position: relative;
+
 }
 .mainbody__chekboxp {
 	text-align: center;
@@ -304,8 +318,8 @@ label:active {
 
 input {
 	display: none;
-
 }
+
 input:checked + label {
 	text-decoration: underline;
 
@@ -495,6 +509,7 @@ table {
 	width: 85%;
    border-spacing: 3px;
 }
+
 td, th {
 	border-radius: 5px;
 	border: 1px solid #000;
@@ -653,9 +668,38 @@ th {
 	width: 55px;
 	height: 55px;
 	}
+
+	.VB__PC {
+		display: none;
+	}
+	.VB__MB {
+		display: inline;
+	}
+	.mainbodycontakt__text img {
+		width: 55px;
+		height: 55px;
+	}
+	.mainbodycontakt__text {
+		line-height: 60px;
+	}
 }
 
-@media only screen and (min-width: 400px) and (max-width: 980px) {
+@media (max-width:980px) {
+	.VB__PC {
+		display: none;
+	}
+	.VB__MB {
+		display: inline;
+	}
+
+	.mainbodycontakt__text img {
+		width: 65px;
+		height: 65px;
+	}
+	.mainbodycontakt__text {
+		line-height: 70px;
+	}
+
 	.mainbody__h1 {
 	font-size: 20px;
 	line-height: 30px;
