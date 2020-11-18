@@ -289,7 +289,7 @@ label:active {
 	margin: 0 0 0 17px;
 }
 .mainbodycontakt__mts {
-	margin: 0 0 0 60px;
+	margin: 0 0 0 80px;
 }
 
 .VB__MB {
@@ -578,6 +578,7 @@ th {
    width: 79%;
    left: 160px;
 	}
+
 	.mainbody__manager{
    	margin-top: -511px;
 	   left: 57px;
@@ -682,6 +683,9 @@ th {
 	.mainbodycontakt__text {
 		line-height: 60px;
 	}
+	.mainbodycontakt__mts {
+		margin: 0 0 0 120px;
+	}
 }
 
 @media (max-width:980px) {
@@ -698,6 +702,10 @@ th {
 	}
 	.mainbodycontakt__text {
 		line-height: 70px;
+	}
+
+	.mainbodycontakt__mts {
+		margin: 0 0 0 140px;
 	}
 
 	.mainbody__h1 {
