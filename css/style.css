@@ -296,13 +296,14 @@ label:active {
 	display: none;
 }
 
+
 .mainbody__row2{
 	text-align: center;
    width: 100%;
    margin: 20px auto 0 auto;
    position: relative;
-
 }
+
 .mainbody__chekboxp {
 	text-align: center;
 	font-size: 16px;
@@ -355,7 +356,7 @@ input[id="tab-18"]:checked ~ .mainbody__rowbody .tab-18 {
 	position: relative;
    top: 0;
    left: 93px;
-   margin-top: -488px;
+   margin-top: -543px;
 }
 
 .mainbody__rowbody h2{
@@ -423,6 +424,10 @@ input[id="tab-18"]:checked ~ .mainbody__rowbody .tab-18 {
 	width: 50%;
 }
 
+.verticalimg img{
+	width: 30%;
+}
+
 .mainbody img:hover {
 	cursor: pointer;
 
@@ -430,6 +435,10 @@ input[id="tab-18"]:checked ~ .mainbody__rowbody .tab-18 {
 .mainbody__manager img:active,
 .mainbody__tp img:active{
 	width: 100%;
+}
+
+.verticalimg img:active {
+	width: 60%;
 }
 
 .mainbody__rowbodyli li{
