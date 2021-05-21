@@ -20,8 +20,6 @@ body{
 	background: #0b76cc;
 }
 
-
-
 .back__to__top{
 	position: fixed;
 	right: 2%;
@@ -588,8 +586,9 @@ th {
 	}
 
 	.mainbody__manager{
-   	margin-top: -511px;
+   	margin-top: -565px;
 	   left: 57px;
+
 	}
 	.mainbody__tp {
 	   left: 58px;
@@ -650,7 +649,7 @@ th {
    width: 80%;
 	}
 	.mainbody__manager{
-		margin-top: -502px;
+		margin-top: -552px;
 	   left: 52px;
 	}
 	.mainbody__tp {
@@ -748,7 +747,7 @@ th {
    	width: 80%;
 	}
 	.mainbody__manager{
-	   margin-top: -468px;
+	   margin-top: -527px;
 	   left: 35px;
 	}
 	.mainbody__tp {
